@@ -1,15 +1,19 @@
 import java.util.Scanner;
-public class check {
+public class input {
 
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        String s = scan.nextLine();
-        int i = scan.nextInt();
+        
+       
 
         // Write your code here.
-        double d = scan.nextDouble();
         
+        int i = scan.nextInt();
+        scan.nextLine();
+        double d = scan.nextDouble();
+        scan.nextLine();
+        String s = scan.nextLine();
 
         System.out.println("String: " + s);
         System.out.println("Double: " + d);
